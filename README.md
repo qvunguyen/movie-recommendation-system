@@ -1,4 +1,6 @@
 # Movie Recommendation System
+![Gif](https://media4.giphy.com/media/3o7rc0qU6m5hneMsuc/giphy.gif?cid=ecf05e47r1fe3wtme87wmqv8bgihs7wrz4qdinb7hl4rjcjl&rid=giphy.gif&ct=g)
+
 This repository contains a movie recommendation system built using Python and the Surprise library for collaborative filtering and scikit-learn for content-based filtering. The dataset used is from GroupLens and can be found at [MovieLens 25M dataset](https://grouplens.org/datasets/movielens/25m/).
 
 # Dataset Description
@@ -67,6 +69,7 @@ for i, movie_title in enumerate(recommendations_list, start=1):
     print(f"{i}. {movie_title}")
 ```
 This will print the top 10 recommendations for User 1 who likes 'Toy Story (1995)'
+![toy_story](https://media0.giphy.com/media/Jr9saevgSxACA/giphy.gif?cid=ecf05e47mhiuv53omrzda4lvqkfezznynkvxa28ts5eqngj1&rid=giphy.gif&ct=g)
 ![top 10 recommendations for User 1 who likes 'Toy Story (1995)](https://user-images.githubusercontent.com/125786884/225561770-4f7c2f68-b5b7-4e9e-bac3-b3587f247a97.png)
 
 # Customizing Recommendations
