@@ -1,5 +1,5 @@
 # Movie Recommendation System
-![Gif](https://media4.giphy.com/media/3o7rc0qU6m5hneMsuc/giphy.gif?cid=ecf05e47r1fe3wtme87wmqv8bgihs7wrz4qdinb7hl4rjcjl&rid=giphy.gif&ct=g)
+![angry_bird_in_cinema](https://media4.giphy.com/media/3o7rc0qU6m5hneMsuc/giphy.gif?cid=ecf05e47r1fe3wtme87wmqv8bgihs7wrz4qdinb7hl4rjcjl&rid=giphy.gif&ct=g)
 
 This repository contains a movie recommendation system built using Python and the Surprise library for collaborative filtering and scikit-learn for content-based filtering. The dataset used is from GroupLens and can be found at [MovieLens 25M dataset](https://grouplens.org/datasets/movielens/25m/).
 
