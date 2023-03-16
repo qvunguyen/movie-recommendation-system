@@ -3,6 +3,14 @@ This repository contains a movie recommendation system built using Python and th
 
 # Table of Contents
 ## 1. Dependencies
+To run the script, you need to install the following libraries:
+
+- scikit-surprise
+- pandas
+You can install them using pip:
+`pip install scikit-surprise`
+`pip install pandas`
+
 ## 2. Usage
 ## 3. Code Overview
 ## 4. Testing
