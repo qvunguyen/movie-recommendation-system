@@ -66,3 +66,31 @@ print(f"Top {n} recommendations for User {user_id} who likes '{title}':")
 for i, movie_title in enumerate(recommendations_list, start=1):
     print(f"{i}. {movie_title}")
 ```
+This will print the top 10 recommendations for User 1 who likes 'Toy Story (1995)'
+![top 10 recommendations for User 1 who likes 'Toy Story (1995)](https://user-images.githubusercontent.com/125786884/225561770-4f7c2f68-b5b7-4e9e-bac3-b3587f247a97.png)
+
+# Customizing Recommendations
+You can customize the recommendation system by modifying the following parameters:
+
+1. **User ID**: Change the user_id variable to the desired user ID to generate recommendations for a specific user.
+2. **Movie Title**: Change the title variable to the desired movie title to base the recommendations on a specific movie.
+3. **Number of Recommendations**: Change the n variable to the desired number of recommendations to generate a custom number of top recommendations.
+
+For example:
+
+```
+user_id = 10
+title = 'The Matrix (1999)'
+n = 5
+recommendations = hybrid_recommendations(user_id, title, n)
+```
+
+This will generate the top 5 recommendations for User 10 who likes 'The Matrix (1999)'.
+
+# Contributing
+Contributions to improve the movie recommendation system are welcome. You can contribute by:
+
+1. Forking the repository
+2. Creating a new branch with your changes
+3. Submitting a pull request for review
+Please ensure your code follows the established coding style and is well documented.
