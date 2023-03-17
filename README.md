@@ -59,7 +59,7 @@ To test the recommendation system, follow these steps:
 For example: 
 
 ```
-user_id = 1
+user_id = 2
 title = 'Toy Story (1995)'
 n = 10
 recommendations = hybrid_recommendations(user_id, title, n)
@@ -70,7 +70,10 @@ for i, movie_title in enumerate(recommendations_list, start=1):
 ```
 This will print the top 10 recommendations for User 1 who likes 'Toy Story (1995)'
 ![toy_story](https://media0.giphy.com/media/Jr9saevgSxACA/giphy.gif?cid=ecf05e47mhiuv53omrzda4lvqkfezznynkvxa28ts5eqngj1&rid=giphy.gif&ct=g)
-![top 10 recommendations for User 1 who likes 'Toy Story (1995)](https://user-images.githubusercontent.com/125786884/225561770-4f7c2f68-b5b7-4e9e-bac3-b3587f247a97.png)
+
+![top 10 recommendation for user 2](https://user-images.githubusercontent.com/125786884/225857502-592a8d26-cd05-4324-adf3-62e2b889b254.png)
+
+
 
 # Customizing Recommendations
 You can customize the recommendation system by modifying the following parameters:
