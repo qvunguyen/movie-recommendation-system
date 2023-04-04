@@ -68,7 +68,7 @@ print(f"Top {n} recommendations for User {user_id} who likes '{title}':")
 for i, movie_title in enumerate(recommendations_list, start=1):
     print(f"{i}. {movie_title}")
 ```
-This will print the top 10 recommendations for User 1 who likes 'Toy Story (1995)'
+This will print the top 10 recommendations for User 2 who likes 'Toy Story (1995)'
 ![toy_story](https://media0.giphy.com/media/Jr9saevgSxACA/giphy.gif?cid=ecf05e47mhiuv53omrzda4lvqkfezznynkvxa28ts5eqngj1&rid=giphy.gif&ct=g)
 
 ![top 10 recommendation for user 2](https://user-images.githubusercontent.com/125786884/225857502-592a8d26-cd05-4324-adf3-62e2b889b254.png)
